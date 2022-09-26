@@ -1,5 +1,5 @@
 server:
-  port: 9001
+  port: 9009
 spring:   # 服务名称，暂时没有用，讲到SpringCloud服务调用的时候才会有用。
   application:
     name: microservice-user
@@ -27,4 +27,4 @@ eureka:
      # 修改续约间隔时间
     lease-renewal-interval-in-seconds: 50
     # 修改服务失效时间
-    lease-expiration-duration-in-seconds: 100      
+    lease-expiration-duration-in-seconds: 100    
